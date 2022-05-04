@@ -1,17 +1,17 @@
 module.exports = {
   // Customize your site metadata:
   siteMetadata: {
-    title: `My Blog Title`,
-    author: `My Name`,
-    description: `My site description...`,
+    title: `blog.jnapolitano`,
+    author: `Justin Napolitano`,
+    description: `Research on Energy, Policy, and the Environment`,
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/gatsbyjs`,
+        url: `https://twitter.com/just-napolitano`,
       },
       {
         name: `github`,
-        url: `https://github.com/gatsbyjs`,
+        url: `https://github.com/justin-napolitano`,
       },
     ],
   },
