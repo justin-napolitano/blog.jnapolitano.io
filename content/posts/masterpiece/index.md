@@ -4,6 +4,7 @@ Tags: test,
 image: ./post-image.jpeg
 imageAlt: The Roberts Court
 date: 2022-05-02
+featuredImage: ./post-image.jpeg
 ---
 
 # Voting Behavior, Textual Analysis, and the Spirit of the Law
