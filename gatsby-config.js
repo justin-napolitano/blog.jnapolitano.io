@@ -1,9 +1,9 @@
 module.exports = {
   // Customize your site metadata:
   siteMetadata: {
-    title: `blog.jnapolitano`,
+    title: `blog.jnapolitano.io`,
     author: `Justin Napolitano`,
-    description: `Research on Energy, Policy, and the Environment`,
+    description: `Well Researched Publications`,
     social: [
       {
         name: `twitter`,

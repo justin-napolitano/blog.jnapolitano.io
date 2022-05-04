@@ -10,7 +10,7 @@ import React from "react"
 export default function Bio() {
   return (
     <>
-      Energy, Policy, Environment
+      Rigorous Blogging
     </>
   )
 }
