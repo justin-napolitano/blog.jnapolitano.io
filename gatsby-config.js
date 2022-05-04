@@ -20,5 +20,18 @@ module.exports = {
       resolve: `gatsby-theme-blog`,
       options: {},
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `blog.jnapolitano.io`,
+        short_name: `blog`,
+        start_url: `/`,
+        background_color: `#663399`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `src/static/favicons/android-chrome-512x512.png`, // This path is relative to the root of the site.
+      },
+    }
   ],
 }
+
