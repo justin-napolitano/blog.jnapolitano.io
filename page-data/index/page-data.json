@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-gatsby-theme-blog-core-src-templates-posts-query-js",
+    "path": "/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"blog.jnapolitano.io","social":[{"name":"twitter","url":"https://twitter.com/just-napolitano"},{"name":"github","url":"https://github.com/justin-napolitano"}]}},"allBlogPost":{"nodes":[{"id":"e065daf5-cab1-5073-89f2-0a9c0ddc47ca","excerpt":"Voting Behavior, Textual Analysis, and the Spirit of the Law Introduction Hypothesis When considering the individual Supreme Court Justices…","slug":"/masterpiece/","title":"Voting Behavior, Textual Analysis, and the Spirit of the Law","date":"May 02, 2022","tags":[]}]}},"pageContext":{"filter":{},"limit":1000}},
+    "staticQueryHashes": ["139983731","2744905544","3090755652","764694655"]}
