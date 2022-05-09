@@ -21,6 +21,23 @@ module.exports = {
       options: {},
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `notebooks`,
+        path: `${__dirname}/content/posts/`,
+        ignore: [`**/.ipynb_checkpoints`],
+      },
+    },
+    {
+      resolve: `@rafaelquintanilha/gatsby-transformer-ipynb`,
+      options: {
+        notebookProps: {
+          displayOrder: ["image/png", "text/html", "text/plain"],
+          showPrompt: false,
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `blog.jnapolitano.io`,
@@ -31,7 +48,13 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/static/favicons/android-chrome-512x512.png`, // This path is relative to the root of the site.
       },
-    }
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-responsive-iframe`],
+      },
+    },
   ],
 }
 
