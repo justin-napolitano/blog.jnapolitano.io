@@ -1,101 +1,115 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Starter for the official Gatsby blog theme
-</h1>
+# blog.jnapolitano.io
 
-Quickly get started using the Gatsby blog theme! This starter creates a new Gatsby site that is preconfigured to work with the [official Gatsby blog theme](https://www.npmjs.com/package/gatsby-theme-blog).
+Welcome to **blog.jnapolitano.io**, a personal blogging platform built using Gatsby and the official Gatsby blog theme. This site is designed to showcase well-researched publications, combining modern web technologies with a clean, responsive design.
 
-## 🚀 Quick start
+---
 
-1.  **Create a Gatsby site.**
+## Features
 
-    Use the Gatsby CLI to create a new site, specifying the blog theme starter.
+- Powered by [Gatsby](https://www.gatsbyjs.com), a fast React-based static site generator.
+- Uses the official [Gatsby blog theme](https://www.npmjs.com/package/gatsby-theme-blog) for a streamlined blogging experience.
+- Supports Markdown and MDX posts, including Jupyter Notebook rendering via `gatsby-transformer-ipynb`.
+- Responsive iframe embedding for notebooks and other content.
+- Site metadata and social links configured for easy customization.
+- Automated build and deployment pipeline using Python scripts.
 
-    ```shell
-    # create a new Gatsby site using the blog theme starter
-    gatsby new my-themed-blog https://github.com/gatsbyjs/gatsby-starter-blog-theme
-    ```
+---
 
-2.  **Start developing.**
+## Tech Stack
 
-    Navigate into your new site’s directory and start it up.
+- **Framework:** Gatsby (React-based static site generator)
+- **Languages:** JavaScript (React), Python (build scripts), HTML
+- **Styling:** Emotion, Styled Components, Theme UI
+- **Plugins:**
+  - `gatsby-theme-blog`
+  - `gatsby-transformer-ipynb` for Jupyter Notebook integration
+  - `gatsby-transformer-remark` with responsive iframe support
+  - `gatsby-plugin-manifest` for PWA features
+- **Build tooling:** Node.js, npm
 
-    ```shell
-    cd my-themed-blog/
-    gatsby develop
-    ```
+---
 
-3.  **Open the code and start customizing!**
+## Getting Started
 
-    Your site is now running at `http://localhost:8000`!
+### Prerequisites
 
-    To get started, check out the guide to [using the Gatsby blog theme starter](https://gatsbyjs.com/docs/themes/using-a-gatsby-theme), or the longer, [more detailed tutorial](https://gatsbyjs.com/tutorial/using-a-theme).
+- Node.js (v14 or newer recommended)
+- npm (comes with Node.js)
+- Python 3.x (for build automation scripts)
 
-## 🚀 Quick start (Gatsby Cloud)
+### Installation
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+Clone the repository:
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-blog-theme)
-
-## 🧐 What's inside?
-
-Here are the top-level files and directories you'll see in a site created using the blog theme starter:
-
-```text
-gatsby-starter-blog-theme
-├── content
-│   ├── assets
-│   │   └── avatar.png
-│   └── posts
-│       ├── hello-world.mdx
-│       └── my-second-post.mdx
-├── src
-│   └── gatsby-theme-blog
-│       └── components
-│           └── bio-content.js
-├── .gitignore
-├── .prettierrc
-├── gatsby-config.js
-├── LICENSE
-├── package-lock.json
-├── package.json
-└── README.md
+```bash
+git clone https://github.com/justin-napolitano/blog.jnapolitano.io.git
+cd blog.jnapolitano.io
 ```
 
-1.  **`/content`**: A content folder holding assets that the theme expects to exist. This will vary from theme to theme -- this starter is set up to get you started with the blog theme, which expects an image asset for your avatar, and blog post content. Replace the avatar image file, delete the demo posts, and add your own!
+Install dependencies:
 
-2.  **`/src`**: You will probably want to customize your site to personalize it. The files under `/src/gatsby-theme-blog` _shadow_, or override, the files of the same name in the `gatsby-theme-blog` package. To learn more about this, check out the [guide to getting started with using the blog theme starter](https://gatsbyjs.com/docs/themes/using-a-gatsby-theme).
+```bash
+npm install
+```
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+### Running the Development Server
 
-4.  **`.prettierrc`**: This file tells [Prettier](https://prettier.io/) which configuration it should use to lint files.
+Start the Gatsby development server:
 
-5.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. When using themes, it's where you'll include the theme plugin, and any customization options the theme provides.
+```bash
+npm run develop
+```
 
-6.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
+Open your browser and navigate to [http://localhost:8000](http://localhost:8000) to see the site.
 
-7.  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+### Building for Production
 
-8.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+To create a production build:
 
-9.  **`README.md`**: A text file containing useful reference information about your project.
+```bash
+npm run build
+```
 
-## 🎓 Learning Gatsby
+You can also use the included Python script `python-build.py` to automate cleaning, building, committing, and pushing the site.
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/).
+---
 
-Here are some places to start:
+## Project Structure
 
-### Themes
+```text
+blog.jnapolitano.io
+├── content/               # Markdown and notebook posts
+│   └── posts/             # Blog post files
+├── src/                   # Source code for components and pages
+│   ├── gatsby-theme-blog/ # Theme components
+│   └── pages/             # Site pages
+├── static/                # Static assets like icons
+├── gatsby-config.js       # Gatsby configuration
+├── package.json           # npm dependencies and scripts
+├── python-build.py        # Python build automation script
+├── README.md              # This file
+└── LICENSE                # License file
+```
 
-- To learn more about Gatsby themes specifically, we recommend checking out the [theme docs](https://www.gatsbyjs.com/docs/themes/).
+---
 
-### General
+## Future Work / Roadmap
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+- Add more detailed author bio and social media integration.
+- Enhance notebook rendering with interactive features.
+- Integrate comments or discussion platform.
+- Automate deployment to Gatsby Cloud or other hosting providers.
+- Expand styling customization and theming options.
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Reference Guides_ and _Gatsby API_ sections in the sidebar.
+---
+
+Feel free to explore the code and contribute!
+
+---
+
+© Justin Napolitano
+
+---
+
+---
+
