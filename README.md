@@ -1,16 +1,16 @@
 # blog.jnapolitano.io
 
-Welcome to **blog.jnapolitano.io**, a personal blogging platform built using Gatsby and the official Gatsby blog theme. This site is designed to showcase well-researched publications, combining modern web technologies with a clean, responsive design.
+blog.jnapolitano.io is a personal blogging platform built with Gatsby, leveraging the official Gatsby blog theme to present well-researched publications. It integrates Jupyter Notebook rendering to support advanced content formats.
 
 ---
 
 ## Features
 
-- Powered by [Gatsby](https://www.gatsbyjs.com), a fast React-based static site generator.
-- Uses the official [Gatsby blog theme](https://www.npmjs.com/package/gatsby-theme-blog) for a streamlined blogging experience.
-- Supports Markdown and MDX posts, including Jupyter Notebook rendering via `gatsby-transformer-ipynb`.
-- Responsive iframe embedding for notebooks and other content.
-- Site metadata and social links configured for easy customization.
+- Static site generation using Gatsby for fast performance.
+- Official Gatsby blog theme for streamlined content management.
+- Support for Markdown and MDX posts, including embedded Jupyter Notebooks via `gatsby-transformer-ipynb`.
+- Responsive iframe embedding for notebooks and other external content.
+- Site metadata configuration with author and social links.
 - Automated build and deployment pipeline using Python scripts.
 
 ---
@@ -18,7 +18,7 @@ Welcome to **blog.jnapolitano.io**, a personal blogging platform built using Gat
 ## Tech Stack
 
 - **Framework:** Gatsby (React-based static site generator)
-- **Languages:** JavaScript (React), Python (build scripts), HTML
+- **Languages:** JavaScript (React), Python (build automation), HTML
 - **Styling:** Emotion, Styled Components, Theme UI
 - **Plugins:**
   - `gatsby-theme-blog`
@@ -34,7 +34,7 @@ Welcome to **blog.jnapolitano.io**, a personal blogging platform built using Gat
 ### Prerequisites
 
 - Node.js (v14 or newer recommended)
-- npm (comes with Node.js)
+- npm (bundled with Node.js)
 - Python 3.x (for build automation scripts)
 
 ### Installation
@@ -60,7 +60,7 @@ Start the Gatsby development server:
 npm run develop
 ```
 
-Open your browser and navigate to [http://localhost:8000](http://localhost:8000) to see the site.
+Open your browser and navigate to [http://localhost:8000](http://localhost:8000) to view the site.
 
 ### Building for Production
 
@@ -70,46 +70,26 @@ To create a production build:
 npm run build
 ```
 
-You can also use the included Python script `python-build.py` to automate cleaning, building, committing, and pushing the site.
+Alternatively, use the included Python script `python-build.py` to automate cleaning, building, committing, and pushing the build.
 
 ---
 
 ## Project Structure
 
-```text
-blog.jnapolitano.io
-├── content/               # Markdown and notebook posts
-│   └── posts/             # Blog post files
-├── src/                   # Source code for components and pages
-│   ├── gatsby-theme-blog/ # Theme components
-│   └── pages/             # Site pages
-├── static/                # Static assets like icons
-├── gatsby-config.js       # Gatsby configuration
-├── package.json           # npm dependencies and scripts
-├── python-build.py        # Python build automation script
-├── README.md              # This file
-└── LICENSE                # License file
-```
+- `content/` — Markdown and MDX posts, including Jupyter Notebook content.
+- `src/` — Source code for React components and theme customization.
+- `static/` — Static assets such as images and favicons.
+- `gatsby-config.js` — Gatsby site configuration including plugins and site metadata.
+- `package.json` and `package-lock.json` — Node.js dependencies and scripts.
+- `python-build.py` — Python script automating build and deployment tasks.
+- `README.md` — Project documentation.
 
 ---
 
 ## Future Work / Roadmap
 
-- Add more detailed author bio and social media integration.
-- Enhance notebook rendering with interactive features.
-- Integrate comments or discussion platform.
-- Automate deployment to Gatsby Cloud or other hosting providers.
-- Expand styling customization and theming options.
-
----
-
-Feel free to explore the code and contribute!
-
----
-
-© Justin Napolitano
-
----
-
----
-
+- Enhance build automation with error handling and logging.
+- Expand support for additional content types and interactive elements.
+- Improve responsive design and accessibility.
+- Integrate continuous deployment pipelines.
+- Refine theme customization and styling options.
