@@ -22,6 +22,14 @@ seoSecondaryKeywords:
   - build automation
   - react blog
 seoOptimized: true
+topicFamily: static
+topicFamilyConfidence: 0.95
+topicFamilyNotes: >-
+  The post is a detailed technical overview of a Gatsby-based static blog platform integrating
+  Jupyter Notebooks, with extensive discussion of static site generation, theming, content
+  embedding, and build automation. The 'static' family specifically covers static site and blog
+  projects using Gatsby and related tooling, matching the core focus here. While automation is
+  present, it is a supporting aspect rather than the main topic.
 ---
 
 # blog.jnapolitano.io: Technical Overview and Implementation Notes
@@ -77,4 +85,5 @@ Traditional blogging platforms often lack native support for complex content typ
 ## Conclusion
 
 This project exemplifies a modern approach to academic and technical blogging by combining static site generation with advanced content embedding. Its architecture balances ease of use, extensibility, and performance, making it a solid foundation for ongoing content development and technical publishing.
+
 
