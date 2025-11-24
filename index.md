@@ -1,12 +1,28 @@
 ---
-slug: "github-blog.jnapolitano.io"
-title: "blog.jnapolitano.io"
-repo: "justin-napolitano/blog.jnapolitano.io"
-githubUrl: "https://github.com/justin-napolitano/blog.jnapolitano.io"
-generatedAt: "2025-11-23T08:40:20.737990Z"
-source: "github-auto"
+slug: github-blog.jnapolitano.io
+title: Technical Overview of blog.jnapolitano.io Gatsby Notebook Blog
+repo: justin-napolitano/blog.jnapolitano.io
+githubUrl: https://github.com/justin-napolitano/blog.jnapolitano.io
+generatedAt: '2025-11-23T08:40:20.737990Z'
+source: github-auto
+summary: >-
+  Detailed overview of a Gatsby-based personal blog platform integrating Jupyter Notebooks with
+  static site generation and build automation.
+tags:
+  - gatsby
+  - jupyter-notebooks
+  - static-site-generation
+  - blogging-platform
+  - react
+  - build-automation
+seoPrimaryKeyword: gatsby blog with jupyter notebooks
+seoSecondaryKeywords:
+  - static site generation
+  - gatsby-transformer-ipynb
+  - build automation
+  - react blog
+seoOptimized: true
 ---
-
 
 # blog.jnapolitano.io: Technical Overview and Implementation Notes
 
@@ -61,3 +77,4 @@ Traditional blogging platforms often lack native support for complex content typ
 ## Conclusion
 
 This project exemplifies a modern approach to academic and technical blogging by combining static site generation with advanced content embedding. Its architecture balances ease of use, extensibility, and performance, making it a solid foundation for ongoing content development and technical publishing.
+
