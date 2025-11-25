@@ -1,20 +1,31 @@
 ---
 slug: github-blog-jnapolitano-io
 id: github-blog-jnapolitano-io
-title: blog.jnapolitano.io
+title: Building a Personal Blog with Gatsby and Jupyter Notebooks
 repo: justin-napolitano/blog.jnapolitano.io
 githubUrl: https://github.com/justin-napolitano/blog.jnapolitano.io
 generatedAt: '2025-11-24T21:34:05.986Z'
 source: github-auto
 summary: >-
-  blog.jnapolitano.io is a personal blogging platform built with Gatsby,
-  leveraging the official Gatsby blog theme to present well-researched
-  publications. It integrates Jupyter Notebook rendering to support advanced
-  content formats.
-tags: []
-seoPrimaryKeyword: ''
-seoSecondaryKeywords: []
-seoOptimized: false
+  Explore how to create a personal blogging platform using Gatsby, featuring
+  Jupyter Notebook integration and automated deployment.
+tags:
+  - gatsby
+  - jupyter
+  - static site generation
+  - react
+  - python
+  - blogging
+  - npm
+  - emotion
+seoPrimaryKeyword: gatsby personal blog
+seoSecondaryKeywords:
+  - jupyter notebook integration
+  - static site generator
+  - build automation
+  - responsive design
+  - gatsby plugins
+seoOptimized: true
 topicFamily: null
 topicFamilyConfidence: null
 kind: project
