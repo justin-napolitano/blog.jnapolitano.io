@@ -7,8 +7,8 @@ githubUrl: https://github.com/justin-napolitano/blog.jnapolitano.io
 generatedAt: '2025-11-24T21:34:05.986Z'
 source: github-auto
 summary: >-
-  Explore how to create a personal blogging platform using Gatsby, featuring
-  Jupyter Notebook integration and automated deployment.
+  Explore how to create a personal blogging platform using Gatsby, featuring Jupyter Notebook
+  integration and automated deployment.
 tags:
   - gatsby
   - jupyter
@@ -27,8 +27,8 @@ seoSecondaryKeywords:
   - responsive design
   - gatsby plugins
 seoOptimized: true
-topicFamily: null
-topicFamilyConfidence: null
+topicFamily: static
+topicFamilyConfidence: 0.9
 kind: project
 entryLayout: project
 showInProjects: true
@@ -130,4 +130,5 @@ Alternatively, use the included Python script `python-build.py` to automate clea
 - Improve responsive design and accessibility.
 - Integrate continuous deployment pipelines.
 - Refine theme customization and styling options.
+
 
