@@ -1,13 +1,13 @@
 ---
 slug: github-blog.jnapolitano.io
-title: Technical Overview of blog.jnapolitano.io Gatsby Notebook Blog
+title: Technical Overview of blog.jnapolitano.io Implementation
 repo: justin-napolitano/blog.jnapolitano.io
 githubUrl: https://github.com/justin-napolitano/blog.jnapolitano.io
 generatedAt: '2025-11-23T08:40:20.737990Z'
 source: github-auto
 summary: >-
-  Detailed overview of a Gatsby-based personal blog platform integrating Jupyter Notebooks with
-  static site generation and build automation.
+  Explore the architecture and implementation details of a Gatsby-based blogging
+  platform that integrates Jupyter Notebooks for enhanced content delivery.
 tags:
   - gatsby
   - jupyter-notebooks
@@ -15,21 +15,31 @@ tags:
   - blogging-platform
   - react
   - build-automation
-seoPrimaryKeyword: gatsby blog with jupyter notebooks
-seoSecondaryKeywords:
+  - jupyter
   - static site generation
+  - blogging
   - gatsby-transformer-ipynb
+  - content management
+seoPrimaryKeyword: gatsby blogging platform
+seoSecondaryKeywords:
+  - jupyter notebook integration
+  - static site architecture
   - build automation
-  - react blog
+  - react components
+  - markdown blogging
+  - gatsby theme
 seoOptimized: true
 topicFamily: static
 topicFamilyConfidence: 0.95
 topicFamilyNotes: >-
-  The post is a detailed technical overview of a Gatsby-based static blog platform integrating
-  Jupyter Notebooks, with extensive discussion of static site generation, theming, content
-  embedding, and build automation. The 'static' family specifically covers static site and blog
-  projects using Gatsby and related tooling, matching the core focus here. While automation is
+  The post is a detailed technical overview of a Gatsby-based static blog
+  platform integrating Jupyter Notebooks, with extensive discussion of static
+  site generation, theming, content embedding, and build automation. The
+  'static' family specifically covers static site and blog projects using Gatsby
+  and related tooling, matching the core focus here. While automation is
   present, it is a supporting aspect rather than the main topic.
+kind: project
+id: github-blog.jnapolitano.io
 ---
 
 # blog.jnapolitano.io: Technical Overview and Implementation Notes
