@@ -18,10 +18,11 @@ tags:
   - blogging
   - npm
   - emotion
-seoPrimaryKeyword: gatsby personal blog
+  - mdx
+seoPrimaryKeyword: gatsby blogging platform
 seoSecondaryKeywords:
   - jupyter notebook integration
-  - static site generator
+  - static site generation
   - build automation
   - responsive design
   - gatsby plugins
